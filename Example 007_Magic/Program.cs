@@ -32,5 +32,6 @@ while (count < 10000)
         y = (y + yc) / 2;
     }
     Console.SetCursorPosition(x,y);
-    Console.Write("*");   
+    Console.Write("*");
+    count = count + 1;   
 }
